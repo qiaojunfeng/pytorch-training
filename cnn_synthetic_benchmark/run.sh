@@ -7,7 +7,7 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=12
 #SBATCH --constraint=gpu
-#SBATCH --account=<account>
+#SBATCH --account=class424
 
 module load cray-python
 export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
